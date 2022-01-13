@@ -31,7 +31,7 @@
      \grace{re8} mi4. fad8 mi4 
      \grace{fad8}  \tuplet 3/2 {mi8 re si} \afterGrace re2 {mi8}
      \grace{la,8} si2 \tuplet 3/2 {sol8 la si}
-     \grace{si8} do4. si8 re, mi
+      \grace{si8} do4. si8 re, mi
      \grace{sol8} la2.
      r4. sol8 \tuplet 3/2 {la8 si re}
      \grace{re8} mi2 \grace{fad8} mi16 re mi sol
@@ -40,7 +40,12 @@
      \grace{fad8} sol4. fad8 \tuplet 3/2 {sol si re}
      \grace{re8} mi2 \grace{fad8} mi16 re mi sol
      \grace{mi8} fad4. mi8 re4
-     \grace{fad4} sol4. fad8 mi4 fad sol re sol la \grace{la} si4. re,8 \grace{re8} mi2
+     re2.
+     \grace{fad4} sol4. fad8 mi4. fad8 sol4. re8 sol la
+     \grace{la} si4. re,8 \grace{re8} 
+     mi4. mi8 \tuplet 3/2 {mi8 re si} 
+     do4. si8 re, mi
+     la2. 
      
    
    }
