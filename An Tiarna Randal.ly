@@ -54,23 +54,28 @@
 
      \mark \markup {\circle A5}
      \grace{sol8} la2
-     re4 \grace{mi8 re do} la2
-     \grace{fad8} sol8 la8 do2 re4. mi8
-     \grace{fad8} sol2 mi4. re8 
-     mi2 \grace{mi8 re do} la1
+     re2 \grace{mi8 re do} 
+     la2. \grace{fad8} sol8 la8
+     do2 re4. mi8 
+     \grace{fad8} sol2 mi4. re8 mi2 
+     \grace{mi8 re do} la2
      la2 \grace{si8 la} sol2
      la1
      % "Bridge"
+     \mark \markup {\circle B2}
      mi'4 \grace{fad8} sol4 \grace{sol8} la2
-     \grace {si8 la sol mi} re4 mi2 \grace{re8}
-     mi2 \grace{mi8 re do}
-     la4 re2 mi8 r8
-     re2 do4 \grace{fad8} sol4 \grace{re8} mi4
+     \grace {si8 la sol mi} re2 mi4 \grace{re8} mi4 \grace{mi8 re do}
+     la4 re2 \grace{mi8 r8} re4 
+     do4 \grace{fad8} sol4 \grace{re8} mi2
+     mi4 \grace{mi8 re do} la2.
+     la4 \grace{si8 la sol mi} sol4 la4. sold8
+     \grace{re8} mi1
+     
 
      r1
      r1
      % "Bridge"
-     mi4 sol4 sol2
+     mi'4 sol4 sol2
      la2 \grace {si8 la sol mi} re2 \grace{mi8 re do}
      la4 \grace{do8} re2.
      do4 \grace{fad8} sol4 \grace{re8} mi2
@@ -102,8 +107,7 @@
     g2
     f2
     f1
-    f2
-    e2:m
+    e1:m
     e1
     e1
     e1
@@ -116,6 +120,20 @@
     d1
     e1
     a1:m
+    a1:m
+    a1:m/c1
+    a1:m/c1
+    d1
+    e1
+    a1:m
+    e2 a2:m
+    a1:m
+    a2:m g2
+    g2 f2
+    f1
+    f2 e2
+    e1
+
     
 
   }
