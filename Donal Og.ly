@@ -2,6 +2,7 @@
 \header {
   title = "Dónal Óg"
   composer = "Trad."
+  tagline = "Music engraving by LilyPond (lilypond.org) – Transcription by Guenael S. – No Rights Reserved"
 }
 
 <<  
