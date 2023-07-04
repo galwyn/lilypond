@@ -24,13 +24,29 @@ melody = \relative do'' {
   mi2 mi4 
   la4. si8 do4 
   si4. la8 sold4 
-  la4. sol8 fa4
+  la4 sol4 fa8 re8
   mi2 re4
   do4. si8 la4
   la4 do4 si8 sol8
   la2.
   la2 mi'4
-   
+  la4. sold8 la4
+  si4 sold4 mi4
+  do'4. si8 do4
+  re4 mi4 fa4
+  mi4. re8 do4
+  do4 si4 la8 do8
+  si2.
+  si2 mi,4
+  la4. si8 do4 
+  si4. la8 sold4 
+  la4. sol8 fa4
+  mi2 re4
+  do4. si8 la4
+  la4 do4 si8 sol8
+  la2.
+  la2.
+
 }
 
 counterpoint = \relative do'' {
@@ -53,12 +69,27 @@ electricBass = \relative do {
   la, mi la do mi la 
   sold si, mi sold mi si
   la' fa, la re sol si,
-  mi, sol do mi re sol,
+  mi sol, do mi re sol,
   la mi la si do mi
   fa do fa, do' re si
   do mi, la si do mi
   la mi do si la mi
-  
+  la mi la do mi la
+  sold mi sold, si mi sold
+  la fa do fa la do,
+  la' fa do fa la si
+  do mi, la, si' la4
+  la8 do, fa, sol' fa4
+  mi8 si mi, si' mi la 
+  sold mi  si mi sold si,
+  la' mi, la  mi' la mi 
+  re do mi sold mi si
+  do do, fa la si re
+  do sol do do si do
+  la mi la  do sol si 
+  do do, fa do' si re,
+  la' mi la si do mi 
+  la2.
   
 }
 
@@ -70,25 +101,41 @@ synthBass = \relative do'' {
   <la do mi>2.
   <la do mi>2 <si re fa sol>4
   <do mi sol>2 <si re sol>4
-  <la do mi>2 sol4
+  <la do mi>2 <sol>4
   <fa la do>2 <sol si re>4
   <do mi sol>2.
   <si  mi sol>2.
   <la do mi>2.
   <mi sold si>2.
   <fa la do>2 <sol si re>4
-  <do mi sol>2 si4
+  <do mi sol>2 <si re sol>4
+  <la do mi>2 <sol la do mi>4
+  <fa la do>2 sol4
+  <la do mi>2.
+  <la do mi>2.
+  <la do mi>2.
+  <la>2.
+  <la>2.
+  <la>2.
+  <la>2 sol4
+  fa2.
+  mi2.
+  mi2 re4
+  do2.
+  re2 mi4
+  fa2 sol4
+  do2 si4
   la2 sol4
   fa2 sol4
-  <la do mi>2.
-  <la do mi>2.
+  la2.
+  la2.
 }
 
 synthLeadPart = \new PianoStaff \with {
   instrumentName = "Lead"
 } <<
   \new Staff = "right" \with {
-    midiInstrument = "lead 1 (square)"
+    midiInstrument = "ocarina"
   } << \melody \\ \counterpoint >>
 >>
 
@@ -108,7 +155,7 @@ synthBassPart = \new PianoStaff \with {
   instrumentName = "Synth"
 } <<
   \new Staff = "right" \with {
-    midiInstrument = "synth bass 1"
+    midiInstrument = "pad 7 (halo)"
   } \synthBass
 >>
 
