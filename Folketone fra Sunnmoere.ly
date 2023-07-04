@@ -1,44 +1,79 @@
+\version "2.24.1"
 
 \header {
-  title = "Folketone fra Sunnmoere"
+  title = "Folketone fra Sunnmøre"
   tagline = "Music engraving by LilyPond (lilypond.org) – Transcription by Guenael S. – No Rights Reserved"
 }
 
 global = {
-  \key c \major
-  \time 4/4
+  \language "français"
+  \key do \major
+  \time 3/4
 }
 
-rightOne = \relative c'' {
+melody = \relative do'' {
   \global
-  % Music follows here.
-  
+  r2 mi4 
+  la4. si8 do4 
+  si4. la8 sold4 
+  la4. sol8 fa4
+  mi2 re4
+  do4. si8 la4
+  la4 do4 re4
+  mi4. fa8 mi4
+  mi2 mi4 
+  la4. si8 do4 
+  si4. la8 sold4 
+  la4. sol8 fa4
+  mi2 re4
+  do4. si8 la4
+  la4 do4 si8 sol8
+  la2.
+  la2 mi'4
+   
 }
 
-rightTwo = \relative c'' {
+counterpoint = \relative do'' {
   \global
   % Music follows here.
-  
+  r2 la4
 }
 
-electricBass = \relative c, {
+electricBass = \relative do {
   \global
-  % Music follows here.
-  
+  la8 mi la si do mi
+  la, mi la do si sold
+  la fa la 
 }
 
-right = \relative c'' {
+synthBass = \relative do'' {
   \global
   % Music follows here.
-  
+  la2.
+  la2.
+  la2.
+  la2 si4
+  do2 si4
+  la2 sol4
+  fa2 sol4
+  do2.
+  si2.
+  la2.
+  mi2.
+  fa2 sol4
+  do2 si4
+  la2 sol4
+  fa2 sol4
+  la2.
+  la2.
 }
 
 synthLeadPart = \new PianoStaff \with {
-  instrumentName = "Synth lead"
+  instrumentName = "Lead"
 } <<
   \new Staff = "right" \with {
     midiInstrument = "lead 1 (square)"
-  } << \rightOne \\ \rightTwo >>
+  } << \melody \\ \counterpoint >>
 >>
 
 electricBassPart = \new StaffGroup \with {
@@ -54,11 +89,11 @@ electricBassPart = \new StaffGroup \with {
 >>
 
 synthBassPart = \new PianoStaff \with {
-  instrumentName = "Synth bass"
+  instrumentName = "Synth"
 } <<
   \new Staff = "right" \with {
     midiInstrument = "synth bass 1"
-  } \right
+  } \synthBass
 >>
 
 \score {
