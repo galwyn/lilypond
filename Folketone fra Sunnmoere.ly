@@ -41,31 +41,47 @@ counterpoint = \relative do'' {
 
 electricBass = \relative do {
   \global
+  r2.
   la8 mi la si do mi
   la, mi la do si sold
-  la fa la 
+  la fa la do si re
+  do sol do mi re sol,
+  la mi la si do mi
+  fa do la fa sol re'
+  do sol do re mi sol
+  si, sol do re mi sol
+  la, mi la do mi la 
+  sold si, mi sold mi si
+  la' fa, la re sol si,
+  mi, sol do mi re sol,
+  la mi la si do mi
+  fa do fa, do' re si
+  do mi, la si do mi
+  la mi do si la mi
+  
+  
 }
 
 synthBass = \relative do'' {
   \global
   % Music follows here.
-  la2.
-  la2.
-  la2.
-  la2 si4
-  do2 si4
+  <la do mi>2.
+  <la do mi>2.
+  <la do mi>2.
+  <la do mi>2 <si re fa sol>4
+  <do mi sol>2 <si re sol>4
+  <la do mi>2 sol4
+  <fa la do>2 <sol si re>4
+  <do mi sol>2.
+  <si  mi sol>2.
+  <la do mi>2.
+  <mi sold si>2.
+  <fa la do>2 <sol si re>4
+  <do mi sol>2 si4
   la2 sol4
   fa2 sol4
-  do2.
-  si2.
-  la2.
-  mi2.
-  fa2 sol4
-  do2 si4
-  la2 sol4
-  fa2 sol4
-  la2.
-  la2.
+  <la do mi>2.
+  <la do mi>2.
 }
 
 synthLeadPart = \new PianoStaff \with {
@@ -81,7 +97,7 @@ electricBassPart = \new StaffGroup \with {
   instrumentName = "Electric bass"
 } <<
   \new Staff \with {
-    midiInstrument = "electric bass (finger)"
+    midiInstrument = "synth bass 1"
   } { \clef "bass_8" \electricBass }
   \new TabStaff \with {
     stringTunings = #bass-tuning
