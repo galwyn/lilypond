@@ -19,7 +19,7 @@ melody = \relative do'' {
   si4. la8 sold4 
   la4. sol8 fa4
   mi2 re4
-  do4. si8 la4
+  do2 si8 la8
   la4 do4 re4
   mi4. fa8 mi4
   mi2 mi4 
@@ -27,7 +27,7 @@ melody = \relative do'' {
   si4. la8 sold4 
   la4 sol4 fa8 re8
   mi2 re4
-  do4. si8 la4
+  do2 si8 la8
   la4 do4 si8 sol8
   la2.
   la2 mi'4
@@ -40,11 +40,31 @@ melody = \relative do'' {
   si2.
   si2 mi,4
   la4. si8 do4 
-  si4. la8 sold4 
+  si2 la8 sold8 
   la4. sol8 fa4
   mi2 re4
   do4. si8 la4
   la4 do4 si8 sol8
+  la2.
+  la2.
+  mi'2 sol4 
+  la4. si8 la4 
+  sol4 mi4. re8 
+  mi2 do'8 si8 
+  la4. si8 la4 
+  sol4 mi4. do8 
+  re2.
+  re2.
+  do'2 si4 
+  la4. si8 do8 re8 
+  mi2 re4  
+  do2  do8 re8
+  mi4. fa8 mi4
+  re2 do8 re8
+  mi2.
+  mi2 do8 re8
+  mi4. fa8 mi4
+  re4 do4. si8
   la2.
   la2.
 
@@ -92,7 +112,25 @@ electricBass = \relative do {
   do\2 do,\4 fa\3 do'\2 si\2 re,\4
   la'\2 mi\3 la\2 si\2 do\2 mi\2 
   la2.
-  
+  mi8 sol, do re do si 
+  la fa la do fa4
+  mi8 sol, do re mi sol, 
+  do,  sol' do mi sol4
+  la8 do, fa si la do,
+  sol' sol, do mi sol, do 
+  <do re> re, sol do re sol
+  <do, re> re, sol re'  sol4
+  do8 mi, sol, do sol'  do, <fa la> <do la'> fa, sol' fa4
+  do8 sol mi' do re si 
+  do mi, la si do mi 
+  fa do fa, mi' do4
+  <do re>8 re, si' sol do re 
+  mi mi, la si do mi
+  la, mi la si do re
+  <mi la,> do, fa mi' do fa,
+  <do' re>8 re, si' sol  la sol
+  la mi la si do mi
+  la2.
 }
 
 synthBass = \relative do'' {
@@ -129,6 +167,26 @@ synthBass = \relative do'' {
   do2 si4
   la2 sol4
   fa2 sol4
+  la2.
+  la2.
+  do,2.
+  fa2.
+  do2.
+  do2.
+  fa2.
+  mi2.
+  sol2.
+  sol2.
+  mi2.
+  fa2.
+  mi2.
+  la2 sol4
+  fa2.
+  sol2.
+  la2.  
+  la2.
+  fa2.
+  sol2.
   la2.
   la2.
 }
