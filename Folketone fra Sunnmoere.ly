@@ -9,6 +9,7 @@ global = {
   \language "français"
   \key do \major
   \time 3/4
+  \omit Voice.StringNumber
 }
 
 melody = \relative do'' {
@@ -58,37 +59,38 @@ counterpoint = \relative do'' {
 electricBass = \relative do {
   \global
   r2.
-  la8 mi la si do mi
-  la, mi la do si sold
-  la fa la do si re
-  do sol do mi re sol,
-  la mi la si do mi
-  fa do la fa sol re'
-  do sol do re mi sol
-  si, sol do re mi sol
-  la, mi la do mi la 
-  sold si, mi sold mi si
-  la' fa, la re sol si,
-  mi sol, do mi re sol,
-  la mi la si do mi
-  fa do fa, do' re si
-  do mi, la si do mi
-  la mi do si la mi
-  la mi la do mi la
-  sold mi sold, si mi sold
-  la fa do fa la do,
-  la' fa do fa la si
-  do mi, la, si' la4
-  la8 do, fa, sol' fa4
-  mi8 si mi, si' mi la 
-  sold mi  si mi sold si,
-  la' mi, la  mi' la mi 
-  re do mi sold mi si
-  do do, fa la si re
-  do sol do do si do
-  la mi la  do sol si 
-  do do, fa do' si re,
-  la' mi la si do mi 
+ 
+  la8\2^\markup{7} mi\3 la\2 si\2 do\2 mi
+  la,\2 mi\3 la\2 do\2 si\2 sold\2
+  la\2 fa\3 la\2 do\2 si\2  re
+  do\2 sol\3 do\2 mi re sol,\3
+  la\2 mi\3 la\2 si\2 do\2 mi
+  fa do\2 la\2 fa\3 sol\3 re'
+  do\3^\markup{12} sol\4 do\3 re\3  mi\2 sol\2
+  si,\3 sol\4 do\3 re\3 mi\2 sol\2
+  la,\3 mi\4 la\3 do\3 mi\2 la 
+  sold si,\3 mi\2 sold mi\2 si\3
+  la' fa,\4 la\3 re\2 sol si,\3
+  mi\2 sol,\4 do\3 mi\2 re\2 sol,\4
+  la\3 mi\4 la\3 si\3 do\3 mi\2
+  fa\2 do\3 fa,\4 do'\3 re\2 si\3
+  do\3 mi,\4 la\3 si\3 do\3 mi\2
+  la mi\2 do\3 si\3 la\3 mi\4
+  la\3 mi\4 la\3 do\3 mi\2 la
+  sold mi\2 sold,\4 si\3 mi\2 sold
+  la fa\2 do\3 fa\2 la do,\3
+  la' fa\2 do\3 fa\2 la si
+  do^\markup{14} mi,\2 la,\4 si' la4
+  la8^\markup{12} do,\3 fa,\4 sol' fa4\2
+  mi8\2 si\3 mi,\4 si'\3 mi\2 la 
+  sold mi\2  si\3 mi\2 sold si,\3
+  la' mi,\4 la\3  mi'\2 la mi\2 
+  re\2 do\3 mi\2 sold mi\2 si\3
+  do\2^\markup{7} do,\4 fa\3 la\2 si\2 re
+  do\2 sol\3 do\2 do\2 si\2 do\2
+  la\2 mi\3 la\2  do\2 sol\3 si\2 
+  do\2 do,\4 fa\3 do'\2 si\2 re,\4
+  la'\2 mi\3 la\2 si\2 do\2 mi\2 
   la2.
   
 }
