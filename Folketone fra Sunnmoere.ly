@@ -86,8 +86,8 @@ electricBass = \relative do {
   do\2 sol\3 do\2 mi re sol,\3
   la\2 mi\3 la\2 si\2 do\2 mi
   fa do\2 la\2 fa\3 sol\3 re'
-  do\3^\markup{12} sol\4 do\3 re\3  mi\2 sol\2
-  si,\3 sol\4 do\3 re\3 mi\2 sol\2
+  do\3^\markup{12} sol\4 do\3 re\2  mi\2 sol\1
+  si,\3 sol\4 do\3 re\2 mi\2 sol\1
   la,\3 mi\4 la\3 do\3 mi\2 la 
   sold si,\3 mi\2 sold mi\2 si\3
   la' fa,\4 la\3 re\2 sol si,\3
