@@ -48,6 +48,8 @@ melody = \relative do'' {
   la2.
   la2.
   mi'2 sol4 
+  la4. sol8 fa4 
+  mi'2 sol4 
   la4. si8 la4 
   sol4 mi4. re8 
   mi2 do'8 si8 
@@ -140,16 +142,16 @@ synthBass = \relative do'' {
   <la do mi>2.
   <la do mi>2.
   <la do mi>2 <si re fa sol>4
-  <do mi sol>2 <si re sol>4
-  <la do mi>2 <sol>4
+  <do mi sol>2 <sol si re>4
+  <la do mi>2 <mi>4
   <fa la do>2 <sol si re>4
   <do mi sol>2.
   <si  mi sol>2.
   <la do mi>2.
   <mi sold si>2.
   <fa la do>2 <sol si re>4
-  <do mi sol>2 <si re sol>4
-  <la do mi>2 <sol la do mi>4
+  <do mi sol>2 <sol si re>4
+  <la do mi>2 <mi sol la do>4
   <fa la do>2 sol4
   <la do mi>2.
   <la do mi>2.
@@ -164,8 +166,8 @@ synthBass = \relative do'' {
   do2.
   re2 mi4
   fa2 sol4
-  do2 si4
-  la2 sol4
+  do2 sol4
+  la2 dol4,
   fa2 sol4
   la2.
   la2.
